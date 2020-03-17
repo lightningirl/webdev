@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Lightning Landing</title>
+	<style>
+		@import url(https://fonts.googleapis.com/css?family=Megrim|Raleway);
+		.background {
+			position: absolute;
+			top: 0;
+			left: 0;
+			min-width: 100%;
+			min-height: 100%;
+			background: -webkit-gradient(linear, left top, right top, color-stop(10%, rgba(77, 175, 255, 0.6)), to(rgba(23, 57, 119, 0.6))), url("assets/pagebg.jpg") no-repeat;
+			background: linear-gradient(90deg, rgba(77, 175, 255, 0.6) 10%, rgba(23, 57, 119, 0.6)), url("assets/pagebg.jpg") no-repeat;
+			background-position: 50% 50%;
+			background-size: cover;
+		}
+
+		.container {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+							transform: translate(-50%, -50%);
+			width: 100%;
+			text-align: center;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		.container h1 {
+			font-family: "Megrim";
+			display: block;
+			width: auto;
+			font-size: 6em;
+			color: rgba(255, 255, 255, 0.87);
+			margin: 0;
+			line-height: 80%;
+			text-shadow: 3px 6px 0 rgba(50, 50, 50, 0.15);
+		}
+		.container h2 {
+			padding: 10px;
+			font-family: "Raleway";
+			font-weight: 300;
+			color: rgba(255, 255, 255, 0.87);
+			font-size: 1.5em;
+			font-weight: 0;
+			letter-spacing: 0.3em;
+			background: rgba(50, 50, 50, 0.15);
+		}
+
+		@media (max-width: 992px) {
+			.container h1 {
+				font-size: 4.5em;
+				line-height: 1.2;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<div class="background">
+		<div class="container">
+			<h1>Lightning ⚡ Projects</h1>
+			<h2>Work in progress...</h2>
+		</div>
+	</div>
+    
+</body>
+</html>
